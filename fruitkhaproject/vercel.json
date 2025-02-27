@@ -1,9 +1,9 @@
 {
-    "build": [{
+    "builds": [{
         "src": "fruitkhaProject/wsgi.py",
         "use": "@vercel/python",
         "config": {
-            "maxLambdasize": "15mb",
+            "maxLambdaSize": "15mb",
             "runtime": "python3.12.7"
         }
     }],
